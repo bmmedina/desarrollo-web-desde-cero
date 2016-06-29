@@ -1,9 +1,54 @@
+<!doctype html>
 <html>
 <head>
 <title> Desarrollo web desde cero</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style = "text/css">
+
+	body{
+	background-color:#d1e9d1;
+	}
+	a{
+	background-image:url(texturaoro.jpg);
+	font-weight:bold;
+	color:white;
+	}
+	table{
+	 color:#113051;
+	background-color:#48d1cc;
+	font-weight:bold;
+	}
+	p{
+	color:#8542f1;
+	font-weight:bold;
+	font-size:x-large;
+	}
+	#lisder{
+	border: 3px solid #7C7C7C;
+	list-style-type:circle;
+	padding:20px;
+	color:#113051;
+	background-color:#48d1cc;
+	font-weight:bold;
+	position:absolute;
+	right:0;
+	}
+	#lisizq{
+	border: 3px solid #f04149;
+	list-style-type:circle;
+	padding:20px;
+	color:#f04149;
+	background-color:black;
+	font-weight:bold;
+	position:absolute;
+	left:0;
+	}
+	
+</style>
+
 </head>
 <!--Esto es un comentario -->
+<center>
 <body>
 
 <strong> Este es el cuerpo de la pagina con etiqueta strong</strong><br/>
@@ -124,5 +169,75 @@ el numero de filas y el numero de th el numero de campos de cada fila.
 
 <h2> <p>------------------------------------------------------------------------------------------------------------------------------------------
  </p><h2><br/><br/>
+<p><h2>Ejemplo de tablas con cellspacing y cellpadding usaremos las mismas tablas que arriba video 8 29/06/16</h2></p><br/><br/>
+<p>Tabla profesores con cellpadding, el color de fondo lo establecemos desde css.</p>
+<table border="5px" cellpadding="20px">
+	<tr><th colspan="5">PROFESORES </th>	
+	</tr>
+	<tr>
+		<th>ID</th>
+		<th>Nombre completo</th>
+		<th>Edad</th>
+		<th>Asignatura</th>
+		<th>aula</th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>Juan perez lopez</td>
+		<td>37</td>
+		<td>Jardineria</td>
+		<td>4</td>
+	</tr>
+
+</table><br/><br/>
+<h2> <p>------------------------------------------------------------------------------------------------------------------------------------------
+ </p><h2><br/><br/>
+<p>En este ejemplo usaremos la misma tabla con cellspacing y cellpadding = 20px con border 8px</p><br/><br/>
+
+<table border="8px" cellspacing="20px" cellpadding="20px" >
+	<tr><th colspan="5">PROFESORES </th>	
+	</tr>
+	<tr>
+		<th>ID</th>
+		<th>Nombre completo</th>
+		<th>Edad</th>
+		<th>Asignatura</th>
+		<th>aula</th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>Juan perez lopez</td>
+		<td>37</td>
+		<td>Jardineria</td>
+		<td>4</td>
+	</tr>
+
+</table><br/><br/>
+<h2> <p>------------------------------------------------------------------------------------------------------------------------------------------
+ </p><h2><br/><br/>
+<p>Siguiente ejercicio y uso de listas, e identificadores, colocando un par de listas a derecha e izquierda con css video 9 29/06/16</p><br/><br/>
+
+<ul id="lisder" >
+	<h4>Lista derecha</h4>
+	<li>Rivera</li>
+	<li>Rajoy</li>
+	<li>Aznar</li>
+	<li>Soraya</li>
+	<li>Tutifruti</li>
+	<li>Carapan</li>
+</ul>
+
+<ul id="lisizq">
+	<h4>Lista izquierda</h4>
+	<li>Iglesias</li>
+	<li>Sanchez</li>
+	<li>Susana</li>
+	<li>Monedero</li>
+	<li>Tontolaba</li>
+	<li>Errejon</li>
+</ul>
+<h2> <p>------------------------------------------------------------------------------------------------------------------------------------------
+ </p><h2><br/><br/>
 </body>
+</center>
 </html>
