@@ -1,0 +1,66 @@
+body{
+	background-color:#d1e9d1;
+	}
+	a{
+	background-image:url(texturaoro.jpg);
+	font-weight:bold;
+	color:white;
+	}
+	
+	p{
+	color:#8542f1;
+	font-weight:bold;
+	font-size:x-large;
+	}
+	#lisder{
+	border: 3px solid #7C7C7C;
+	list-style-type:circle;
+	padding:20px;
+	color:#113051;
+	background-color:#48d1cc;
+	font-weight:bold;
+	position:absolute;
+	right:0;
+	}
+	#lisizq{
+	border: 3px solid #f04149;
+	list-style-type:circle;
+	padding:20px;
+	color:#f04149;
+	background-color:black;
+	font-weight:bold;
+	position:absolute;
+	left:0;
+	}
+	li{
+	border: 2px solid yellow;
+	font-weight:bold;
+	}
+	.tabla1{
+	color:#113051;
+	background-color:black;
+	font-weight:bold;
+	}
+	.tabla1 #cabeza{
+		background-color:white;
+		text-align:center;
+		font-size:large;
+		color:black;
+	}
+	.tabla1 th{
+	border: 2px solid red;
+	font-style:italic;
+	color:yellow;
+	}
+	.tabla1 td{
+		text-align:center;
+		color:red;
+		font-weight:bold;
+	}
+	
+	.tabla2{
+		border:3px solid red;
+		background-color:#ff1493;
+		padding:"20px"
+		
+	}

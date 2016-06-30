@@ -3,57 +3,7 @@
 <head>
 <title> Desarrollo web desde cero</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<style = "text/css">
-
-	body{
-	background-color:#d1e9d1;
-	}
-	a{
-	background-image:url(texturaoro.jpg);
-	font-weight:bold;
-	color:white;
-	}
-	table{
-	 color:#113051;
-	background-color:#48d1cc;
-	font-weight:bold;
-	}
-	p{
-	color:#8542f1;
-	font-weight:bold;
-	font-size:x-large;
-	}
-	#lisder{
-	border: 3px solid #7C7C7C;
-	list-style-type:circle;
-	padding:20px;
-	color:#113051;
-	background-color:#48d1cc;
-	font-weight:bold;
-	position:absolute;
-	right:0;
-	}
-	#lisizq{
-	border: 3px solid #f04149;
-	list-style-type:circle;
-	padding:20px;
-	color:#f04149;
-	background-color:black;
-	font-weight:bold;
-	position:absolute;
-	left:0;
-	}
-	li{
-	border: 2px solid yellow;
-	font-weight:bold;
-	}
-	td{
-	border: 2px solid red;
-	font-style:italic;
-	color:yellow;
-	}
-	
-</style>
+<link rel="stylesheet" type="text/css" href="misestilos2.css"/>
 
 </head>
 <!--Esto es un comentario -->
@@ -109,8 +59,8 @@
 <h1><p>Prueba de creacion de tablas  video 7 28/06/16</p></h1><br/>
 <!-- Creacion de una tabla profesores  con 5 campos ,id, nombre y apellidos, edad, asignatura, aula, -->
 <p><h2>Ejemplo de tabla que incluye un registro con 5 campos</h2></p><br/><br/>
-<table border="3px">
-	<tr><th colspan="5">PROFESORES </th>	
+<table class ="tabla1" >
+	<tr><th id ="cabeza">PROFESORES </th>	
 	</tr>
 	<tr>
 		<th>ID</th>
@@ -180,8 +130,8 @@ el numero de filas y el numero de th el numero de campos de cada fila.
  </p><h2><br/><br/>
 <p><h2>Ejemplo de tablas con cellspacing y cellpadding usaremos las mismas tablas que arriba video 8 29/06/16</h2></p><br/><br/>
 <p>Tabla profesores con cellpadding, el color de fondo lo establecemos desde css.</p>
-<table border="5px" cellpadding="20px">
-	<tr><th colspan="5">PROFESORES </th>	
+<table class="tabla2">
+	<tr><th>PROFESORES </th>	
 	</tr>
 	<tr>
 		<th>ID</th>
