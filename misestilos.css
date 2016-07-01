@@ -4,14 +4,13 @@
 		font-weight: bold;
 		color:yellow;
 		}
+		
 		body{
 		background-color:#baffdc;
-		<!--background-image:url(textura.jpg);-->
-		<!--background-repeat:no-repeat;-->
 		}
 		a{
 		background-color:orange;
-		color:black;
+		color:#ff1493;
 		font-style:italic;
 		font-weight: bold;
 		}

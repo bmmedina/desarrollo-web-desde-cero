@@ -1,0 +1,90 @@
+#wrapper{
+	border: 3px solid violet;
+	width:1000px;
+	height:750px;
+	margin:0px auto;
+}
+#main{
+	border: 2px solid blue;
+	width:950px;
+	height:100px;
+	margin:0px auto;
+	background-color:#66ffff;
+	text-indent:3px;
+}
+#container{
+	width:950px;
+	height:500px;
+	margin:0px auto;
+	
+}
+#men-nav{
+	border: 1px solid black;
+	width:900px;
+	height:50px;
+	margin-left:5px;
+	background-color:#ccff99;
+	text-indent:3px;
+}
+#sec{
+	border: 1px solid black;
+	width:750px;
+	height:500px;
+	margin:0px auto;
+	float:left;
+	background-color:#66ffff;
+	text-indent:3px;
+}
+#art1{
+	border: 1px solid black;
+	width:95%;
+	height:90px;
+	margin-left:10px;
+	background-color:red;
+	text-indent:3px;
+}
+#art2{
+	border: 1px solid black;
+	width:95%;
+	height:90px;
+	margin-left:10px;
+	background-color:orange;
+	text-align:center;
+	color:blue;
+}
+#art3{
+	border: 1px solid white;
+	width:95%;
+	height:90px;
+	margin-left:10px;
+	background-color:green;
+	text-align:right;
+	color:orange;
+}
+#art4{
+	border: 1px solid white;
+	width:95%;
+	height:90px;
+	margin-left:10px;
+	background-color:blue;
+	text-align:center;
+	color:white;
+}
+#latright{
+	border: 1px solid black;
+	float:right;
+	width:180px;
+	height:500px;
+	margin:0px auto;
+	background-color:#cc6155;		
+	text-indent:3px;
+}
+#piefondo{
+	border: 2px solid black;
+	width:950px;
+	height:50px;
+	margin:0px auto;
+	background-color:black;
+	text-indent:3px;
+	color:violet;
+}
